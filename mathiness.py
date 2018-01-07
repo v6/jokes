@@ -18,12 +18,12 @@ clauses = ["the following are equivalent", "it obtains that"]
 
 greekletters = ["α", "β", "ξ", "φ"]
 
-symbols = "(ei)1 ≤ i ≤ n"
+symbols = ["(ei)1 ≤ i ≤ n", "(∅)/(∅)"]
 
 print ("Let " + random.sample(greekletters, 1)[0] + " be any " + random.sample(adjectives, 1)[0] + " "
         + random.sample(nouns, 1)[0] + ".")
 print ("Let " + random.sample(symbols, 1)[0] + " be a basis for " + random.sample(adjectives, 1)[0]
-        + " " + random.sample(nouns, 1)[0] + random.sample(greekletters, 1)[0] + ".")
+        + " " + random.sample(nouns, 1)[0] + " " + random.sample(greekletters, 1)[0] + ".")
 print ("There is a " + random.sample(nouns, 1)[0] + " onto the " + random.sample(adjectives, 1)[0]
         + random.sample(nouns, 1)[0] + ", " + " and by "
         + random.sample(verbs, 1)[0] + " of this " + random.sample(nouns, 1)[0]
