@@ -2,7 +2,7 @@
 
 import random
 
-print("Hello?")
+print("Hello? I'd like to see what you think about a Lemma I've been working on in my spare time.")
 
 nouns = ["plane", "planar coefficients", "structure", "disphrenials", "altcurve", \
          "discontinuity", "conjecture", "aliter", "transport of structure", "isomorphism", "algebraic system"]
