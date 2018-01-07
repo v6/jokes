@@ -27,5 +27,5 @@ print ("Let " + random.sample(symbols, 1)[0] + " be a basis for " + random.sampl
 print ("There is a " + random.sample(nouns, 1)[0] + " onto the " + random.sample(adjectives, 1)[0]
         + random.sample(nouns, 1)[0] + ", and by "
         + random.sample(verbs, 1)[0] + " of this " + random.sample(nouns, 1)[0]
-        + "it obtains that a " + random.sample(nouns, 1)[0] + " is equivalent to "
+        + " it obtains that a " + random.sample(nouns, 1)[0] + " is equivalent to "
         + random.sample(nouns, 1)[0] + ".")
